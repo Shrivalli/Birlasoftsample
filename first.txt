@@ -9,3 +9,20 @@ git commit -m "message" - to save the files in the local copy(git)
 git remote add origin <url> - to connect the remote repo(github repo) and the local repo(git repo).
 
 changes made by shrivalli as an example
+
+
+2. demo - add collaborators
+create new directory - mkdir shcode 
+change directory - cd shcode
+git init
+git remote add origin <myurl>
+git pull origin master
+
+open the notepad. type something and save it
+
+git status - red color filename will come
+git add .
+git commit -m "your message"
+git push origin master
+
+
